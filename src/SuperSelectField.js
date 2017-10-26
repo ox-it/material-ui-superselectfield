@@ -562,7 +562,7 @@ class SelectField extends Component {
           anchorEl={this.root}
           canAutoPosition={canAutoPosition}
           anchorOrigin={anchorOrigin}
-          useLayerForClickAway={false}
+          useLayerForClickAway={this.props.useLayerForClickAway}
           onRequestClose={this.closeMenu}
           style={{ height: popoverHeight }}
         >
